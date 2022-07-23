@@ -27,7 +27,7 @@ Access our [**exclusive telegram channel**](https://bit.ly/ErickWendelContentHub
   - [x] Establishes handshake connections according to the Web Socket protocol
   - [x] Sends masked data payloads
   - [x] Receives masked and unmasked data payloads
-  - [ ] Tries reconnecting to the server and it's unavailable
+  - [ ] Tries reconnecting to the server after a disconnection
 
 ### Notes
 - Should you have some difficulties solving the problems, please comment on the [**Youtube video**]()
