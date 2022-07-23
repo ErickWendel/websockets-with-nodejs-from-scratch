@@ -6,8 +6,9 @@ First of all, leave your star 🌟 on this repo.
 
 Access our [**exclusive telegram channel**](https://bit.ly/ErickWendelContentHub) so I'll let you know about all the content I've been producing 
 
-## Source code of the examples showed in class
+## Complete source code
 - Access them in [nodejs-raw-websocket/](./nodejs-raw-websocket/)
+
 ## Features Checklist + Challenges
 
 - Web Socket Server
@@ -36,7 +37,7 @@ Access our [**exclusive telegram channel**](https://bit.ly/ErickWendelContentHub
 
 ## Running
 
-Server - Use the Node.js v18 and execute the [server.mjs](./nodejs-raw-websocket/server.mjs) file as `node nodejs-raw-websocket/server.mjs`
-Client - You just need to open the [index.html](./nodejs-raw-websocket/index.html) file on a browser. (I use Firefox for the examples) 
+- Server - Use the Node.js v18 and execute the [server.mjs](./nodejs-raw-websocket/server.mjs) file as `node nodejs-raw-websocket/server.mjs`
+- Client - You just need to open the [index.html](./nodejs-raw-websocket/index.html) file on a browser. (I use Firefox for the examples) 
 
 ## Have fun!
