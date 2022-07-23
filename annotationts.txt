@@ -1,0 +1,79 @@
+touch index.html all
+touch server.mjs
+
+all until socket.on(upgrade)
+process.on(errors)
+
+Back to the video
+
+Make headers, Copy Magic Key from https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers#server_handshake_response
+
+back to the script
+
+Receiving messages:
+  - onSocketReadable
+    say that every .read gets a byte with an array of 8 bits
+  - open the spreadsheet on 7 bits masked
+    show the mask, optcode and payload length fields we're gonna need
+
+  - only 7-bits 
+    we're gonna change to receive bigger messages later
+
+  - show on the spreadsheet where the maskKey is
+       The masking key is a 32-bit value chosen at random by the client.
+  - show where the encoded values are
+  - print encoded values
+
+back to the script
+
+Decoding messages 
+  function unmask(buffer, maskKey) {}
+  copy and paste code from the docs 
+    https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers#reading_and_unmasking_the_data
+  
+  all examplanation about XOR on Repl
+  logger all
+  console.log(data received)
+  socket.write('hello')
+
+back to the script 
+
+Sending messages 
+  prepareMsg
+    only 7-bits
+    else {}
+    all 
+
+  change the frontend to return a bigger message
+
+back to the script
+
+Receiving and Sending 16-bit integer
+  onSocketReadable
+    add 
+      } else if (lengthIndicatorInBits === SIXTEEN_BITS_INTEGER_LENGTH) {
+
+  show it working 
+  show error when trying to send data
+
+  // maximum size of two bytes
+  else if (messageSize < SIXTEEN_BIT_INTEGER_MAX_VALUE) {
+  
+
+
+https://www.programiz.com/javascript/bitwise-operators
+https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers
+https://www.bigbinary.com/blog/ruby-pack-unpack
+https://blog.pusher.com/websockets-from-scratch/
+https://github.com/pusher/websockets-from-scratch-tutorial
+https://github.com/websockets/ws
+https://www.quora.com/Which-is-the-maximum-16-bit-signed-integer
+https://github.com/websockets/ws/blob/975382178f8a9355a5a564bb29cb1566889da9ba/lib/sender.js#L466
+https://ruby-doc.org/core-2.2.0/Array.html#pack-method
+https://datatracker.ietf.org/doc/html/draft-ietf-hybi-thewebsocketprotocol-17#section-5
+https://nodejs.org/docs/latest-v17.x/api/buffer.html
+https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers#format
+https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server
+https://stackoverflow.com/a/11077172/4087199
+https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian
+https://en.wikipedia.org/wiki/Reliability_(computer_networking)
