@@ -77,3 +77,4 @@ https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocke
 https://stackoverflow.com/a/11077172/4087199
 https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian
 https://en.wikipedia.org/wiki/Reliability_(computer_networking)
+https://github.com/ErickWendel/websockets-with-nodejs-from-scratch
