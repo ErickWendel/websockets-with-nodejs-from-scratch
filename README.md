@@ -1,4 +1,4 @@
-# Web Socket application using only Node.js builtin modules
+# Web Socket application using only Node.js built-in modules
 
 Welcome, this repo is part of my youtube video about Building a complete application implementing the Web Socket protocol using only Node.js built-in modules. 
 
