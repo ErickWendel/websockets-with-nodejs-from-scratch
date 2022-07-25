@@ -1,5 +1,8 @@
 # Web Socket application using only Node.js built-in modules
 
+<img src="https://user-images.githubusercontent.com/8060102/180692620-543a0a99-1733-454c-b202-9f8f4702816c.png" width=800/>
+
+## About
 Welcome, this repo is part of my youtube video about Building a complete application implementing the Web Socket protocol using only Node.js built-in modules. 
 
 First of all, leave your star 🌟 on this repo.
@@ -31,9 +34,9 @@ Access our [**exclusive telegram channel**](https://bit.ly/ErickWendelContentHub
   - [ ] Tries reconnecting to the server after a disconnection
 
 ### Notes
-- Should you have some difficulties solving the problems, please comment on the [**Youtube video**]()
+- Should you have some difficulties solving the problems, please comment on the [**Youtube video**](https://youtu.be/qFoFKLI3O8w)
 
-- As soon as you've been finishing the tasks, comment on the  [**Youtube video**]() so all other students can be pushed forward by your efforts
+- As soon as you've been finishing the tasks, comment on the  [**Youtube video**](https://youtu.be/qFoFKLI3O8w) so all other students can be pushed forward by your efforts
 
 ## Running
 
